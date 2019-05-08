@@ -148,7 +148,7 @@ module.exports = {
     return require('../Components/TextInput/TextInput');
   },
   get ToolbarAndroid() {
-    return require('../Components/ToolbarAndroid');
+    return require('../Components/ToolbarAndroid/ToolbarAndroid');
   },
   get Touchable() {
     return require('../Components/Touchable/Touchable');
@@ -250,7 +250,7 @@ module.exports = {
     return require('../ReactNative/I18nManager');
   },
   get ImagePickerIOS() {
-    return require('../Image/ImagePickerIOS');
+    return require('../CameraRoll/ImagePickerIOS');
   },
   get InteractionManager() {
     return require('../Interaction/InteractionManager');

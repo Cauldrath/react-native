@@ -9,7 +9,7 @@
  */
 'use strict';
 
-const {polyfillObjectProperty} = require('PolyfillFunctions');
+const {polyfillObjectProperty} = require('../Utilities/PolyfillFunctions');
 
 /**
  * Set up Geolocation.
